@@ -1,0 +1,22 @@
+# התעלמות כוללת
+node_modules/
+.env
+.env.*    # למקרה של .env.local וכו'
+
+# ספציפית לתת-תיקיות (לא חובה אם יש את השורה למעלה, אבל לא יזיק)
+client/node_modules/
+server/node_modules/
+client/.env
+server/.env
+
+# תוצרי build
+build/
+dist/
+client/build/
+server/build/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
